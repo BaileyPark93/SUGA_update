@@ -1,0 +1,34 @@
+name: SUGA 참조데이터 주간 수집
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"        # 매주 월요일 00:00 UTC (한국시간 09:00)
+  workflow_dispatch: {}        # "Run workflow" 버튼으로 수동 실행도 가능
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 필요한 프로그램 설치
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: 수집 실행
+        env:
+          LAW_OC: ${{ secrets.LAW_OC }}
+        run: python collector.py
+      - name: 결과 파일 저장(커밋)
+        run: |
+          git config user.name "suga-bot"
+          git config user.email "suga-bot@users.noreply.github.com"
+          git add update.json seen_parts.json law_state.json || true
+          git add update.json seen_parts.json
+          git diff --cached --quiet || git commit -m "weekly update $(date -u +%F)"
+          git push

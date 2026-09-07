@@ -1,0 +1,6 @@
+{
+ "version": "0000-00-00",
+ "source": ["초기 파일 — 첫 수집 전"],
+ "productRules": [], "vendorWatchlist": [], "knowledgeBase": [], "gurRecoveredParts": [],
+ "notes": ["아직 수집이 한 번도 실행되지 않았습니다. GitHub의 Actions 탭에서 'Run workflow'를 눌러 첫 수집을 실행하세요."]
+}
