@@ -1,6 +1,6 @@
 {
- "version": "2026-09-14",
- "generatedAt": "2026-09-14T00:24:55.255974Z",
+ "version": "2026-09-21",
+ "generatedAt": "2026-09-21T00:11:46.280836Z",
  "source": [
   "GUR War & Sanctions",
   "법제처 국가법령정보센터(전략물자수출입고시)"
@@ -122,6 +122,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4966"
   },
   {
+   "model": "30-мм автоматична авіаційна гармата ГШ-30-1",
+   "mfr": "KBP JSC",
+   "use": "ENG 부품으로 확인 (GUR 5508, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5508"
+  },
+  {
    "model": "3G/4G USB modem",
    "mfr": "Not identified",
    "use": "ENG 부품으로 확인 (GUR 6793, 12.01.2026)",
@@ -143,6 +150,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5366"
   },
   {
+   "model": "9-B-2347-01 fragmentation-high-explosive warhead",
+   "mfr": "GOSNIIMASH JSC",
+   "use": "ENG 부품으로 확인 (GUR 5467, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5467"
+  },
+  {
    "model": "9N184 fragmentation-high explosive warhead",
    "mfr": "GOSNIIMASH JSC",
    "use": "ENG 부품으로 확인 (GUR 5109, 21.01.2026)",
@@ -155,6 +169,13 @@
    "use": "ENG 부품으로 확인 (GUR 5134, 21.01.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5134"
+  },
+  {
+   "model": "AB-3 antenna device of the 9B914 active jamming system",
+   "mfr": "",
+   "use": "ENG 부품으로 확인 (GUR 5457, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5457"
   },
   {
    "model": "AB-3.1 and AB-3.2 antenna devices of the 9B914 active jamming system",
@@ -197,6 +218,13 @@
    "use": "ENG 부품으로 확인 (GUR 5310, 20.04.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5310"
+  },
+  {
+   "model": "AL-41F-1S turbojet engine",
+   "mfr": "ODK-UMPO PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5470, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5470"
   },
   {
    "model": "APD 115T aviation piston engine",
@@ -269,6 +297,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5322"
   },
   {
+   "model": "Aircraft wheels with brakes (KT-213-1, KT-213-2) and without brakes (KN35, KN35-2)",
+   "mfr": "AK RUBIN PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5504, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5504"
+  },
+  {
    "model": "Amplifier module B-22-191",
    "mfr": "Analog Devices",
    "use": "ENG 부품으로 확인 (GUR 5380, 04.05.2026)",
@@ -288,6 +323,13 @@
    "use": "ENG 부품으로 확인 (GUR 5441, 12.08.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5441"
+  },
+  {
+   "model": "Antenna device for the SN-99 satellite navigation system",
+   "mfr": "KB NAVIS JSC",
+   "use": "ENG 부품으로 확인 (GUR 5466, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5466"
   },
   {
    "model": "Antennas 200132M",
@@ -332,6 +374,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5224"
   },
   {
+   "model": "BCVM Baget-53-31M onboard digital computer",
+   "mfr": "RPKB JSC",
+   "use": "ENG 부품으로 확인 (GUR 5482, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5482"
+  },
+  {
    "model": "BINS-M2 platformless inertial navigation system",
    "mfr": "Spansion (Cypress Semiconductor, Infineon Technologies)",
    "use": "ENG 부품으로 확인 (GUR 4852, 13.08.2025)",
@@ -346,6 +395,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4979"
   },
   {
+   "model": "BINS-SP-2 platform-free inertial navigation system",
+   "mfr": "MIEA PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5476, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5476"
+  },
+  {
    "model": "BINS2M-S-03 platform-free inertial navigation system",
    "mfr": "RPZ JSC",
    "use": "ENG 부품으로 확인 (GUR 5400, 12.05.2026)",
@@ -353,11 +409,25 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5400"
   },
   {
+   "model": "BKDU-130 on-board oxygen production unit",
+   "mfr": "NPP ZVEZDA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5501, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5501"
+  },
+  {
    "model": "BKNA 115V-2 voltage control unit",
    "mfr": "AEROELECTROMASH JSC",
    "use": "ENG 부품으로 확인 (GUR 5343, 20.04.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5343"
+  },
+  {
+   "model": "BPKTS-2 television signal conversion and switching unit",
+   "mfr": "RPKB JSC",
+   "use": "ENG 부품으로 확인 (GUR 5486, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5486"
   },
   {
    "model": "BRZU 115VO-2s-2 protection and control unit",
@@ -379,6 +449,13 @@
    "use": "ENG 부품으로 확인 (GUR 5193, 02.03.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5193"
+  },
+  {
+   "model": "BUP-PUD-50A engine thrust control unit",
+   "mfr": "AEROELECTROMASH JSC",
+   "use": "ENG 부품으로 확인 (GUR 5496, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5496"
   },
   {
    "model": "Baget 62-04 on-board digital computer",
@@ -477,6 +554,13 @@
    "use": "ENG 부품으로 확인 (GUR 5127, 21.01.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5127"
+  },
+  {
+   "model": "Control unit (autopilot) BU-59M2",
+   "mfr": "APZ JSC",
+   "use": "ENG 부품으로 확인 (GUR 5465, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5465"
   },
   {
    "model": "Cumulative fragmentation-high-explosive warhead (weight - 15 kg)",
@@ -582,6 +666,13 @@
    "use": "ENG 부품으로 확인 (GUR 4962, 03.11.2025)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4962"
+  },
+  {
+   "model": "External storage devices VZU-1-1",
+   "mfr": "АVIAAVTOMATIKA IM. V.V. TARASOVA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5480, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5480"
   },
   {
    "model": "FAB-500T high-explosive aerial bomb",
@@ -773,6 +864,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4815"
   },
   {
+   "model": "K-36D-5 ejection seat",
+   "mfr": "NPP ZVEZDA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5499, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5499"
+  },
+  {
    "model": "K-36D-5.01 ejection seat",
    "mfr": "NPP ZVEZDA JSC",
    "use": "ENG 부품으로 확인 (GUR 5323, 20.04.2026)",
@@ -794,6 +892,20 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5230"
   },
   {
+   "model": "KAI-35 collimator aviation indicators",
+   "mfr": "RPKB JSC",
+   "use": "ENG 부품으로 확인 (GUR 5485, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5485"
+  },
+  {
+   "model": "KE100-2 and KE101-2 electrohydraulic valves",
+   "mfr": "AK RUBIN PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5506, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5506"
+  },
+  {
    "model": "KNA-10A network card",
    "mfr": "ShenZhen Eong Elektronics Co., Ltd",
    "use": "ENG 부품으로 확인 (GUR 6767, 22.12.2025)",
@@ -801,11 +913,32 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/6767"
   },
   {
+   "model": "KS-129-35 oxygen system",
+   "mfr": "NPP ZVEZDA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5500, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5500"
+  },
+  {
    "model": "KS-50 oxygen system",
    "mfr": "NPP ZVEZDA JSC",
    "use": "ENG 부품으로 확인 (GUR 5345, 20.04.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5345"
+  },
+  {
+   "model": "KSU-35 integrated control system",
+   "mfr": "ELARA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5481, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5481"
+  },
+  {
+   "model": "KUTR5-1 fuel and flow control system with DSMK and DT64 fuel sensors",
+   "mfr": "TECHPRIBOR PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5473, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5473"
   },
   {
    "model": "KVANT-2M automatic heater control unit for an electric pulse anti-icing system",
@@ -822,11 +955,25 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5412"
   },
   {
+   "model": "Kh-31P supersonic air-to-surface anti-radar missile",
+   "mfr": "TACTICAL MISSILE ARMAMENT CORPORATION JSC",
+   "use": "ENG 부품으로 확인 (GUR 5511, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5511"
+  },
+  {
    "model": "Kh-UAV missile (product ‘TKB-1030.00.00.000’)",
    "mfr": "KBP JSC",
    "use": "ENG 부품으로 확인 (GUR 5002, 03.11.2025)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5002"
+  },
+  {
+   "model": "L-150-35 digital aviation radar exposure warning station",
+   "mfr": "TSKBA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5497, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5497"
   },
   {
    "model": "L-402 \"Himalaya\" system of electronic countermeasures",
@@ -869,6 +1016,20 @@
    "use": "ENG 부품으로 확인 (GUR 5368, 27.04.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5368"
+  },
+  {
+   "model": "MFI-35 multifunctional liquid crystal displays",
+   "mfr": "RPKB JSC",
+   "use": "ENG 부품으로 확인 (GUR 5483, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5483"
+  },
+  {
+   "model": "MFPI-35M multi-functional control panels",
+   "mfr": "RPKB JSC",
+   "use": "ENG 부품으로 확인 (GUR 5484, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5484"
   },
   {
    "model": "MFPI-50M multi-functional control panels",
@@ -934,11 +1095,25 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5226"
   },
   {
+   "model": "N035 \"Irbis-E\" radar control system with passive phased-array antennas",
+   "mfr": "NIIP IMENI V.V. TIKHOMIROVA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5488, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5488"
+  },
+  {
    "model": "N036 \"Belka\" multifunctional airborne radar",
    "mfr": "NIIP IMENI V.V. TIKHOMIROVA JSC",
    "use": "ENG 부품으로 확인 (GUR 5326, 20.04.2026)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5326"
+  },
+  {
+   "model": "NCVS-27 ground-based air communications complex",
+   "mfr": "NPP POLET JSC",
+   "use": "ENG 부품으로 확인 (GUR 5495, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5495"
   },
   {
    "model": "NNPU-50 system equipped with 30-mm 9A1-4071K automatic aircraft cannons",
@@ -953,6 +1128,13 @@
    "use": "ENG 부품으로 확인 (GUR 4970, 03.11.2025)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4970"
+  },
+  {
+   "model": "OLS-35 optical-location station",
+   "mfr": "NPK SPP JSC",
+   "use": "ENG 부품으로 확인 (GUR 5491, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5491"
   },
   {
    "model": "On-board digital computer \"ZARYA-61M\"",
@@ -1011,6 +1193,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5340"
   },
   {
+   "model": "PTK-10SK brake landing parachute system",
+   "mfr": "NPO PARASHYUTOSTROENIYA JSC",
+   "use": "ENG 부품으로 확인 (GUR 5502, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5502"
+  },
+  {
    "model": "PTK-50 brake landing parachute system",
    "mfr": "NPO PARASHYUTOSTROENIYA JSC",
    "use": "ENG 부품으로 확인 (GUR 5346, 20.04.2026)",
@@ -1053,11 +1242,32 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5187"
   },
   {
+   "model": "R-37M long-range air-to-air missile",
+   "mfr": "GOSICB VYMPEL NAMED AFTER I.I. TOROPOV JSC",
+   "use": "ENG 부품으로 확인 (GUR 5510, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5510"
+  },
+  {
    "model": "R-60 missile",
    "mfr": "",
    "use": "ENG 부품으로 확인 (GUR 5070, 15.12.2025)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5070"
+  },
+  {
+   "model": "R-73 short-range air-to-air missile",
+   "mfr": "GOSICB VYMPEL NAMED AFTER I.I. TOROPOV JSC",
+   "use": "ENG 부품으로 확인 (GUR 5513, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5513"
+  },
+  {
+   "model": "R-77-1 air-to-air missile",
+   "mfr": "GOSICB VYMPEL NAMED AFTER I.I. TOROPOV JSC",
+   "use": "ENG 부품으로 확인 (GUR 5512, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5512"
   },
   {
    "model": "R500 turbojet engine",
@@ -1186,6 +1396,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5258"
   },
   {
+   "model": "S-107-1, S-108 onboard communications systems",
+   "mfr": "NPP POLET JSC",
+   "use": "ENG 부품으로 확인 (GUR 5493, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5493"
+  },
+  {
    "model": "S-111 onboard communications system",
    "mfr": "NPP POLET JSC",
    "use": "ENG 부품으로 확인 (GUR 5338, 20.04.2026)",
@@ -1226,6 +1443,13 @@
    "use": "ENG 부품으로 확인 (GUR 4879, 13.01.2025)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4879"
+  },
+  {
+   "model": "SN-60 voltage stabiliser",
+   "mfr": "",
+   "use": "ENG 부품으로 확인 (GUR 5456, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5456"
   },
   {
    "model": "SVS-2C-U-2 air signal system",
@@ -1340,6 +1564,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5243"
   },
   {
+   "model": "TBBCH-50M thermobaric warhead",
+   "mfr": "FNPC NII PRIKLADNOI KHIMII JSC",
+   "use": "ENG 부품으로 확인 (GUR 5445, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5445"
+  },
+  {
    "model": "TEMP system as part of the BUPT-1E brake drive control unit",
    "mfr": "AEROELECTROMASH JSC",
    "use": "ENG 부품으로 확인 (GUR 5223, 09.03.2026)",
@@ -1417,6 +1648,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/6365"
   },
   {
+   "model": "UE86 electronic brake control units",
+   "mfr": "AK RUBIN PJSC",
+   "use": "ENG 부품으로 확인 (GUR 5505, 25.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5505"
+  },
+  {
    "model": "UV-50-01 passive interference jammer",
    "mfr": "АVIAAVTOMATIKA IM. V.V. TARASOVA JSC",
    "use": "ENG 부품으로 확인 (GUR 5334, 20.04.2026)",
@@ -1487,6 +1725,13 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4851"
   },
   {
+   "model": "ZBBCH-50 incendiary warhead with OFBCH-2 high-explosive fragmentation warhead",
+   "mfr": "",
+   "use": "ENG 부품으로 확인 (GUR 5446, 12.08.2026)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5446"
+  },
+  {
    "model": "ZR10 camera with 3-axis stabilisation",
    "mfr": "SIYI",
    "use": "ENG 부품으로 확인 (GUR 6765, 22.12.2025)",
@@ -1503,14 +1748,13 @@
  ],
  "notes": [
   "GUR 공지: Published: - an interactive 3D model of the RM-48U strike missile; - 114 identified electronic components; - 63 enterprises involved in its production; - 24 officials and employees of the main enterprises of the production. The data of the enterprises of the Roselektronika holding of the Rostec stat",
-  "GUR 공지: Published: - an interactive 3D model of the 3M22 \"Zircon\" ballistic missile; - 70 enterprises involved in its production; - 84 officials and employees of the main enterprises of the production. The components of the 9M723 \"Iskander-M\" missiles, companies and individuals involved, has been published.",
-  "GUR 공지: Data on the parts of the Su-35S multi-role fighters, as well as 79 enterprises involved in its production, has been published. 1 2 3 4 5 6 7 8 9 10 » GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LIST",
+  "GUR 공지: Published: - an interactive 3D model of the 3M22 \"Zircon\" ballistic missile; - 70 enterprises involved in its production; - 84 officials and employees of the main enterprises of the production. 1 2 3 4 5 6 7 8 9 10 » GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS ",
   "전략물자수출입고시 개정 감시는 꺼져 있습니다 (GitHub Secrets에 LAW_OC를 넣으면 켜짐 — 설치안내 7단계).",
   "KITA 전략물자 목록(kita.net)은 자동접속 차단 시스템 때문에 수집하지 않습니다. 공식 통제목록은 국가법령정보센터의 전략물자수출입고시 별표2·3이며, 무역안보관리원(yestrade.go.kr) 공지에서 개정 행정예고를 확인할 수 있습니다."
  ],
  "stats": {
-  "newThisRun": 134,
-  "totalParts": 213,
+  "newThisRun": 35,
+  "totalParts": 248,
   "errors": 0
  }
 }
