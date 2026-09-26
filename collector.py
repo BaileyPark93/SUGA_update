@@ -11,14 +11,15 @@ from playwright.sync_api import sync_playwright
 BASE = "https://war-sanctions.gur.gov.ua"
 OUT = pathlib.Path("update.json")
 SEEN = pathlib.Path("seen_parts.json")
-MAX_NEW_PER_RUN = 250          # 한 번에 너무 많이 열지 않도록 (차단 방지)
+MAX_NEW_PER_RUN = 400          # 한 번에 너무 많이 열지 않도록 (차단 방지)
 DELAY_SEC = 1.5                # 페이지 사이 대기
 LAW_OC = os.environ.get("LAW_OC", "").strip()   # 법제처 Open API 아이디(OC). GitHub Secrets에 LAW_OC로 저장하면 활성화
 LAW_ADMRUL_ID = "33993"                          # 전략물자수출입고시 (law.go.kr admRulId)
 LAW_STATE = pathlib.Path("law_state.json")
 
 LABELS = ["Name and marking", "Manufacturer's headquarters country", "Manufacturer",
-          "Extended description", "Рік випуску", "Additional information", "Publication date"]
+          "Extended description", "Рік випуску", "Additional information", "Publication date",
+          "Production date", "Components included", "Provide additional information"]
 
 def log(*a): print("[collector]", *a, flush=True)
 
@@ -27,17 +28,90 @@ def load_json(p, default):
     except Exception: return default
 
 def parse_part_page(text):
-    """페이지 본문 텍스트에서 라벨 다음 줄을 값으로 읽음 (값이 비면 다음 라벨이 바로 옴)"""
+    """라벨 다음의 '여러 줄'을 값으로 읽음.
+    GUR의 'Name and marking'은 두 줄 구조 — 1행: 설명 이름, 2행 이후: 실제 품번(마킹).
+    예)  Name and marking / Digital signal processor / TMS320 F28335PGFA G4A-42AYS2W G4
+    이전 버전은 첫 줄만 읽어 품번을 통째로 놓쳤음."""
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    data = {}
-    for i, l in enumerate(lines):
-        if l in LABELS:
-            nxt = lines[i + 1] if i + 1 < len(lines) else ""
-            data[l] = "" if nxt in LABELS else nxt
-    # 무기 이름: 제목(첫 줄) 다음 줄이 보통 무기명
+    data, i = {}, 0
+    while i < len(lines):
+        if lines[i] in LABELS:
+            label, vals, j = lines[i], [], i + 1
+            while j < len(lines) and lines[j] not in LABELS:
+                vals.append(lines[j]); j += 1
+            data[label] = vals
+            i = j
+        else:
+            i += 1
     data["_title"] = lines[0] if lines else ""
     data["_weapon"] = lines[1] if len(lines) > 1 and lines[1] not in LABELS else ""
     return data
+
+# ── 품번(마킹) 토큰 판별 ──
+# 칩·부품에 인쇄된 마킹은 대개 대문자+숫자 조합이고, 설명문은 소문자 단어가 많다.
+# '2-channel', '3G/4G', 'RS-422', 'USB' 같은 규격·수량 표현은 품번이 아니므로 제외한다.
+_STD_TOKEN = re.compile(r"^(RS-?\d{3}|USB\d?(-C)?|HDMI|VGA|DVI|CAN|I2C|SPI|UART|RJ-?45|IEEE\d*|MIL-?STD-?\d*|ISO\d*|\d+G/\d+G|\d+G|\d+-?[a-z]+|\d+(\.\d+)?(V|A|W|MM|CM|M|KG|G|HZ|KHZ|MHZ|GHZ|MB|GB)|\\d{1,3}(\\.\\d+)?)$", re.I)   # 순수 숫자는 3자리 이하만 제외(수량) — 4자리 이상은 마킹일 수 있음(예: Murata 7942)
+def is_part_token(w):
+    w = w.strip('()[]"\'.,;:')
+    if len(w) < 4 or _STD_TOKEN.match(w): return False
+    digits = sum(c.isdigit() for c in w); upper = sum(c.isupper() for c in w)
+    if digits == 0: return False
+    return digits >= 2 or upper >= 1
+
+def looks_like_part(v):
+    v = (v or "").strip()
+    if not v or v.lower().startswith(("if you have", "provide additional")): return False
+    return any(is_part_token(w) for w in v.split())
+
+def _extract_marking(line):
+    """한 줄에서 품번 부분과 설명 부분을 분리. 따옴표 안 내용이 있으면 그것을 품번으로 우선."""
+    q = re.findall(r'["“”\'‘’]([^"“”\'‘’]{3,})["“”\'‘’]', line)
+    if q and any(is_part_token(t) for t in q[0].split()):
+        name = re.sub(r'["“”\'‘’][^"“”\'‘’]{3,}["“”\'‘’]', ' ', line).strip(' -–—:,')
+        return name, q[0].strip()
+    toks = line.split()
+    parts = [t for t in toks if is_part_token(t)]
+    if not parts: return line.strip(), ""
+    # 품번 토큰이 줄의 대부분이면 줄 전체가 마킹(로트번호 포함) — 아니면 토큰만
+    if len(parts) >= max(1, len(toks) - 1): return "", line.strip()
+    name = " ".join(t for t in toks if t not in parts).strip(' -–—:,()')
+    return name, " ".join(parts)
+
+def split_name_marking(vals):
+    """GUR 'Name and marking' 값(여러 줄) → (설명 이름, 품번/마킹)
+    2줄 이상: 1행은 이름, 이후 줄 중 품번 토큰이 있는 줄을 마킹(인쇄된 그대로)
+    1줄: 줄 안에서 품번 토큰만 골라 마킹, 나머지를 이름으로"""
+    vals = [v.strip() for v in (vals or []) if v and v.strip()]
+    if not vals: return "", ""
+    if len(vals) == 1:
+        return _extract_marking(vals[0])
+    marks = [v for v in vals[1:] if looks_like_part(v)]
+    if marks: return vals[0], " ".join(marks)
+    # 뒷줄에 품번 토큰이 없으면 첫 줄 안에서라도 찾아본다
+    n, m = _extract_marking(vals[0])
+    return (n or vals[0]), m
+
+def marking_keys(marking, name=""):
+    """조달 목록의 품번과 대조하기 위한 검색 키 목록.
+    'TMS320 F28335PGFA G4A-42AYS2W G4' → ['TMS320F28335PGFAG4A-42AYS2WG4', 'TMS320F28335PGFA',
+                                          'TMS320', 'F28335PGFA', 'G4A-42AYS2W']
+    (실제 조달 품번은 공백 없이 'TMS320F28335PGFA'로 적히므로 앞 토큰들을 이어붙인 형태도 넣음)"""
+    keys = set()
+    m = (marking or "").strip()
+    if not m: return []
+    toks = [t.strip(" ,;()") for t in m.split() if t.strip(" ,;()")]
+    toks = [t for t in toks if t]
+    if not toks: return []
+    joined = "".join(toks)
+    if len(joined) >= 5: keys.add(joined)
+    # 앞 2~3개 토큰을 이어붙인 형태 (제조사 계열명 + 품번)
+    for n in (2, 3):
+        if len(toks) >= n:
+            j = "".join(toks[:n])
+            if len(j) >= 6: keys.add(j)
+    for t in toks:
+        if len(t) >= 5 and is_part_token(t): keys.add(t.strip('()[]"\'.,;:'))
+    return sorted(keys, key=lambda x: -len(x))
 
 def looks_like_marking(name):
     # 부품 번호로 매칭할 수 있으려면 숫자/영문 조합 토큰이 있어야 함 ("Tracker"처럼 이름만 있으면 매칭 불가)
@@ -102,13 +176,13 @@ def main():
             for _ in range(15):   # 무한스크롤/더보기 대응
                 page.mouse.wheel(0, 4000); page.wait_for_timeout(800)
             hrefs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
-            weapon_links = sorted({h for h in hrefs if re.search(r"/en/(page-|components/weapon/)", h)})
+            weapon_links = sorted({x for x in hrefs if re.search(r"/en/(page-[^/]+/?$|components/weapon/)", x)})
             log("weapon pages:", len(weapon_links))
             for w in weapon_links[:60]:
                 try:
                     page.goto(w, timeout=60000); page.wait_for_timeout(2000)
                     hs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
-                    part_links += [h for h in hs if re.search(r"/en/components/(part/)?\d+$", h)]
+                    part_links += [x for x in hs if re.search(r"/en/(components/(part/)?\d+|page-[^/]+/\d+)$", x)]
                     time.sleep(DELAY_SEC)
                 except Exception as e:
                     errors.append(f"weapon {w}: {e}")
@@ -124,16 +198,27 @@ def main():
             try:
                 page.goto(h, timeout=60000); page.wait_for_timeout(1500)
                 d = parse_part_page(page.inner_text("body"))
-                name = d.get("Name and marking") or d.get("_title", "")
-                mfr = d.get("Manufacturer", "")
+                nm = d.get("Name and marking", [])
+                name, marking = split_name_marking(nm)
+                mfr = " ".join(d.get("Manufacturer", [])).strip()
+                country = " ".join(d.get("Manufacturer's headquarters country", [])).strip()
+                pub = " ".join(d.get("Publication date", [])).strip()
                 weapon = d.get("_weapon", "")
                 seen_ids.add(pid)
-                if name and looks_like_marking(name):
-                    key = name.upper()
-                    if key not in parts:
-                        parts[key] = {"model": name, "mfr": mfr, "use": f"{weapon} 부품으로 확인 (GUR {pid}, {d.get('Publication date','')})".strip(),
-                                      "militaryOnly": False, "source": h}
-                        new_count += 1
+                keys = marking_keys(marking)
+                if not keys:      # 품번을 못 찾은 항목은 대조에 쓸 수 없으므로 건너뜀
+                    continue
+                key = (marking or name).upper()
+                if key not in parts:
+                    parts[key] = {
+                        "model": marking,                 # 실제 품번(마킹)
+                        "name": name,                     # 부품 설명 이름
+                        "keys": keys,                     # 대조용 검색 키
+                        "mfr": mfr, "country": country,
+                        "use": f"{weapon} 부품으로 확인".strip() + (f" (GUR {pid}, {pub})" if pub else f" (GUR {pid})"),
+                        "militaryOnly": False, "source": h,
+                    }
+                    new_count += 1
                 time.sleep(DELAY_SEC)
             except Exception as e:
                 errors.append(f"part {pid}: {e}")
