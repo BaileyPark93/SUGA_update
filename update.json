@@ -1,6 +1,6 @@
 {
- "version": "2026-10-05",
- "generatedAt": "2026-10-05T00:11:28.012779Z",
+ "version": "2026-10-12",
+ "generatedAt": "2026-10-12T00:11:18.400431Z",
  "source": [
   "GUR War & Sanctions",
   "법제처 국가법령정보센터(전략물자수출입고시)"
@@ -6180,13 +6180,14 @@
   }
  ],
  "notes": [
+  "GUR 공지: An interactive 3D model of the 9-S-7760 \"Kinzhal\" (Kh-47M2) aeroballistic missile and a list of the 58 companies involved in its production has been published 20 marine vessels are published. 10.10.2026 SEA-GOING VESSELS 20 maritime vessels (under sanctions imposed by the UK, the US and Ukraine) inv",
   "GUR 공지: Information regarding the design and electronic component base of the new version of the \"Geran-4\" UAV has been published. Cooperation enterprises involved in the production of 95Ya6 missiles for the \"Pantsir\" system have been published. 30.09.2026 COMPONENTS IN WEAPONS Data on 23 companies involved",
   "GUR 공지: Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCID",
   "전략물자수출입고시 개정 감시는 꺼져 있습니다 (GitHub Secrets에 LAW_OC를 넣으면 켜짐 — 설치안내 7단계).",
   "KITA 전략물자 목록(kita.net)은 자동접속 차단 시스템 때문에 수집하지 않습니다. 공식 통제목록은 국가법령정보센터의 전략물자수출입고시 별표2·3이며, 무역안보관리원(yestrade.go.kr) 공지에서 개정 행정예고를 확인할 수 있습니다."
  ],
  "stats": {
-  "newThisRun": 11,
+  "newThisRun": 0,
   "totalParts": 466,
   "errors": 0
  }
