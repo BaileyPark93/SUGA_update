@@ -1,6 +1,6 @@
 {
- "version": "2026-10-19",
- "generatedAt": "2026-10-19T02:36:30.972265Z",
+ "version": "2026-10-26",
+ "generatedAt": "2026-10-26T02:30:59.812507Z",
  "source": [
   "GUR War & Sanctions",
   "법제처 국가법령정보센터(전략물자수출입고시)"
@@ -905,6 +905,19 @@
    "source": "https://war-sanctions.gur.gov.ua/en/page-kometa/4444"
   },
   {
+   "model": "5430 ZHR9G4",
+   "name": "DC/DC converter",
+   "keys": [
+    "5430ZHR9G4",
+    "ZHR9G4"
+   ],
+   "mfr": "Texas Instruments",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7646, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7646"
+  },
+  {
    "model": "54540 P2T0G4",
    "name": "DC-DC Converter",
    "keys": [
@@ -1064,6 +1077,18 @@
    "use": "ENG 부품으로 확인 (GUR 7089, 27.04.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/page-kover/7089"
+  },
+  {
+   "model": "7461 W34K",
+   "name": "MOSFET",
+   "keys": [
+    "7461W34K"
+   ],
+   "mfr": "Vishay Intertechnology, Inc.",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7647, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7647"
   },
   {
    "model": "74LCX11 PA7AA LCX11",
@@ -2543,6 +2568,21 @@
    "source": "https://war-sanctions.gur.gov.ua/en/page-molniya/6780"
   },
   {
+   "model": "CH32V307 VCT6 31102FD12",
+   "name": "Microcontroller",
+   "keys": [
+    "CH32V307VCT631102FD12",
+    "CH32V307VCT6",
+    "31102FD12",
+    "CH32V307"
+   ],
+   "mfr": "WinChipHead (WCH)",
+   "country": "People's Republic of China",
+   "use": "ENG 부품으로 확인 (GUR 7652, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7652"
+  },
+  {
    "model": "CK806",
    "name": "Schottky diode",
    "keys": [
@@ -3259,6 +3299,18 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/6410"
   },
   {
+   "model": "HX0068ANL",
+   "name": "Signal transformer",
+   "keys": [
+    "HX0068ANL"
+   ],
+   "mfr": "Pulse Electronics Corporation",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7649, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7649"
+  },
+  {
    "model": "HYGO015N10 A3G01NS1B",
    "name": "Module with N-channel MOSFET transistors",
    "keys": [
@@ -3464,6 +3516,90 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4815"
   },
   {
+   "model": "K-101",
+   "name": "FCU unit (flight controller",
+   "keys": [
+    "K-101"
+   ],
+   "mfr": "Micrel Inc. (Microchip Technology Inc.)",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 5674, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5674"
+  },
+  {
+   "model": "K-102",
+   "name": "power distribution unit",
+   "keys": [
+    "K-102"
+   ],
+   "mfr": "Not identified MORE GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua",
+   "country": "",
+   "use": "ENG 부품으로 확인 (GUR 5659, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5659"
+  },
+  {
+   "model": "K-103-01",
+   "name": "inertial navigation system unit",
+   "keys": [
+    "K-103-01"
+   ],
+   "mfr": "Texas Instruments MORE GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 5663, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5663"
+  },
+  {
+   "model": "K-107",
+   "name": "Rechargeable battery",
+   "keys": [
+    "K-107"
+   ],
+   "mfr": "",
+   "country": "",
+   "use": "ENG 부품으로 확인 (GUR 5677, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5677"
+  },
+  {
+   "model": "K-109",
+   "name": "electric engine control unit",
+   "keys": [
+    "K-109"
+   ],
+   "mfr": "Vishay Intertechnology, Inc. MORE GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 5668, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5668"
+  },
+  {
+   "model": "K-110",
+   "name": "warhead control unit",
+   "keys": [
+    "K-110"
+   ],
+   "mfr": "MORNSUN MORE GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua",
+   "country": "People's Republic of China",
+   "use": "ENG 부품으로 확인 (GUR 5666, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5666"
+  },
+  {
+   "model": "K-112",
+   "name": "avionics panel",
+   "keys": [
+    "K-112"
+   ],
+   "mfr": "ON Semiconductor (ONSEMI) MORE GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 5670, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/components/part/5670"
+  },
+  {
    "model": "K-36D-5",
    "name": "ejection seat",
    "keys": [
@@ -3635,6 +3771,24 @@
    "use": "ENG 부품으로 확인 (GUR 6683, 03.11.2025 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/page-orion/6683"
+  },
+  {
+   "model": "KSZ8795CLXIC 2219A2T T0002219J80 M221900",
+   "name": "Ethernet switch",
+   "keys": [
+    "KSZ8795CLXIC2219A2TT0002219J80M221900",
+    "KSZ8795CLXIC2219A2TT0002219J80",
+    "KSZ8795CLXIC2219A2T",
+    "KSZ8795CLXIC",
+    "T0002219J80",
+    "2219A2T",
+    "M221900"
+   ],
+   "mfr": "Micrel Inc. (Microchip Technology Inc.)",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7655, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7655"
   },
   {
    "model": "KUTR5-1 DT64",
@@ -3831,6 +3985,18 @@
    "use": "ENG 부품으로 확인 (GUR 6405, 13.08.2025 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/page-kh-59/6405"
+  },
+  {
+   "model": "LD33 L222",
+   "name": "Linear voltage regulator",
+   "keys": [
+    "LD33L222"
+   ],
+   "mfr": "STMicroelectronics",
+   "country": "Switzerland",
+   "use": "ENG 부품으로 확인 (GUR 7651, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7651"
   },
   {
    "model": "LD33 Y511",
@@ -4766,6 +4932,21 @@
    "use": "ENG 부품으로 확인 (GUR 5491, 25.08.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
    "militaryOnly": false,
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5491"
+  },
+  {
+   "model": "OS1380 TI148 AC70",
+   "name": "Decoder/demultiplexer",
+   "keys": [
+    "OS1380TI148AC70",
+    "OS1380TI148",
+    "OS1380",
+    "TI148"
+   ],
+   "mfr": "Texas Instruments",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7657, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7657"
   },
   {
    "model": "OVK215",
@@ -6198,6 +6379,18 @@
    "source": "https://war-sanctions.gur.gov.ua/en/components/part/5123"
   },
   {
+   "model": "VP11 9276",
+   "name": "Schottky diode",
+   "keys": [
+    "VP119276"
+   ],
+   "mfr": "ON Semiconductor (ONSEMI)",
+   "country": "United States of America",
+   "use": "ENG 부품으로 확인 (GUR 7650, 22.10.2026 If you have additional information about the origin of this component, country and/or date of manufacture, its application, technical characteristics, supply chains to aggressors - you can let us know and we will definitely use it and, if appropriate, add it to this page with reference to you, or without (at your request) PROVIDE ADDITIONAL INFORMATION GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS Individuals Legal entities AGGRESSOR`S MILITARY-INDUSTRIAL COMPLEX Instruments of war Unmanned systems Rostec Executives of War Engineers of aggression War Finances CULTURAL GENOCIDE Child kidnappers Stolen Heritage AGENTS OF INFLUENCE Kremlin Mouthpieces Champions of terror API PORTAL NEWS War & Sanctions 2026 war-sanctions@gur.gov.ua)",
+   "militaryOnly": false,
+   "source": "https://war-sanctions.gur.gov.ua/en/page-filin/7650"
+  },
+  {
    "model": "VP230 TI58M A1V4",
    "name": "CAN transceiver",
    "keys": [
@@ -6589,15 +6782,14 @@
   }
  ],
  "notes": [
-  "GUR 공지: A 3D model of the Kometa-M16 jam-resistant navigation module, 28 cooperation companies, 37 components, and 13 pieces of equipment used in its production has been published. In cooperation with the CCD, the sections \"kremlin mouthpieces\" and \"Champions of terror\" has been updated 14.10.2026 IIn coope",
+  "GUR 공지: Data on the design and electronic component base of the russian federation's new \"Filin\" cruise missile has been published. CRPA Kometa – the ECB, cooperative enterprises and equipment have been published 19.10.2026 COMPONENTS IN WEAPONS A 3D model of the Kometa-M16 jam-resistant navigation module, ",
   "GUR 공지: An interactive 3D model of the 9-S-7760 \"Kinzhal\" (Kh-47M2) aeroballistic missile and a list of the 58 companies involved in its production has been published 20 marine vessels are published. 10.10.2026 SEA-GOING VESSELS 20 maritime vessels (under sanctions imposed by the UK, the US and Ukraine) inv",
-  "GUR 공지: Information regarding the design and electronic component base of the new version of the \"Geran-4\" UAV has been published. 1 2 3 4 5 6 7 8 9 10 » GO TO SITE COMPONENTS IN WEAPONS Weapons Components Involved enterprises LOGISTICS OF WAR Marine vessels Shadow Fleet Masters PARTNER`S SANCTIONS LISTS In",
   "전략물자수출입고시 개정 감시는 꺼져 있습니다 (GitHub Secrets에 LAW_OC를 넣으면 켜짐 — 설치안내 7단계).",
   "KITA 전략물자 목록(kita.net)은 자동접속 차단 시스템 때문에 수집하지 않습니다. 공식 통제목록은 국가법령정보센터의 전략물자수출입고시 별표2·3이며, 무역안보관리원(yestrade.go.kr) 공지에서 개정 행정예고를 확인할 수 있습니다."
  ],
  "stats": {
-  "newThisRun": 27,
-  "totalParts": 493,
+  "newThisRun": 15,
+  "totalParts": 508,
   "errors": 0
  }
 }
